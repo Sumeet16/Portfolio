@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "language": "HTML",
+        "per": 95
+    },
+    {
+        "id": 2,
+        "language": "CSS",
+        "per": 90
+    },
+    {
+        "id": 3,
+        "language": "SASS",
+        "per": 75
+    },
+    {
+        "id": 4,
+        "language": "ReactJS",
+        "per": 85
+    },
+    {
+        "id": 5,
+        "language": "Flutter",
+        "per": 70
+    },
+    {
+        "id": 6,
+        "language": "JavaScript",
+        "per": 80
+    },
+    {
+        "id": 7,
+        "language": "Firebase",
+        "per": 50
+    },
+    {
+        "id": 8,
+        "language": "MySQL",
+        "per": 60
+    },
+    {
+        "id": 9,
+        "language": "PHP",
+        "per": 70
+    },
+    {
+        "id": 10,
+        "language": "NodeJS",
+        "per": 80
+    },
+    {
+        "id": 11,
+        "language": "Solidity",
+        "per": 40
+    },
+    {
+        "id": 12,
+        "language": "Figma",
+        "per": 90
+    },
+    {
+        "id": 13,
+        "language": "Adobe XD",
+        "per": 90
+    },{
+        "id": 14,
+        "language": "Adobe Photoshop",
+        "per": 85
+    }
+]

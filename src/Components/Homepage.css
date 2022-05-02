@@ -1,0 +1,116 @@
+@import url("./Main.css");
+
+@media screen and (max-width: 767px) {
+    .homepage__cont{
+        width: 100%;
+        position: absolute;
+        top: 0rem;
+        display: grid;
+        grid-gap: 1rem;
+    
+    }
+    
+    .home__first__cont{
+        grid-template-columns: 3fr;
+        padding-top: 3.5rem;
+        align-items: center;
+    }
+    
+    .dummy_box{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    
+    .social__box{
+        display: grid;
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+    
+    .home__social__logo{
+        color: var(--first-color);
+    }
+    
+    .profile__pic{
+        width: 75%;
+    }
+    
+    .profile__pic img{
+        width: 100%;
+    }
+    
+    .home__data{
+        padding: 1rem 2rem;
+        display: grid;
+        row-gap: .2rem;
+    }
+    
+    .title{
+        font-size: 1.5rem;
+        color: var(--title-color);
+    }
+    
+    .home__subtitle{
+        color: var(--text-color);
+    }
+    
+    .home__disc{
+        color: var(--text-color-light);
+        font-size: 15px;
+        margin-top: 0.5rem;
+    }
+    
+    .contact__btn{
+        width: 10rem;
+        height: 4rem;
+        background-color: var(--first-color);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 2rem;
+        margin-top: 0.8rem;
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .contact__btn:hover{
+        background-color: var(--first-color-alt);
+    }
+    
+    .text{
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        margin-right: -20px;
+    }
+    
+    .message__arrow{
+        color: var(--body-color);
+    }
+    
+    .scroll__down{
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+        margin-left: 2rem;
+    }
+    
+    .scroll__down__btn{
+        color: var(--title-color);
+    }
+    
+    .scroll__down:active{
+        margin-top: 15px;
+        transition: 0.5s;
+    }
+}

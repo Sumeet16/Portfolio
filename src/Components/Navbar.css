@@ -1,0 +1,107 @@
+@import url("./Main.css");
+
+@media screen and (max-width: 767px) {
+    .nav__cont{
+        width: 100%;
+        padding: 1rem 1.5rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: var(--body-color);
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .nav__logo__text{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-top: -3px;
+        color: var(--title-color);
+    }
+
+    .nav__toogle__btn{
+        cursor: pointer;
+        width: 95%;
+        color: var(--title-color);
+    }
+
+    .nav__logo__text:hover{
+        color: var(--first-color);
+    }
+
+    .nav__toogle__btn:hover{
+        color: var(--first-color);
+    }
+
+    .nav__item__menu{
+        width: 100%;
+        height: 0vh;
+        position: fixed;
+        left: 0;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        background-color: var(--body-color);
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, .3);
+        z-index: 100000000000;
+    }
+
+    .visible{
+        height: 35vh;
+        bottom: 0;
+        visibility: visible;
+
+    }
+
+    .disable{
+        height: 0vh;
+        visibility: hidden;
+    }
+
+    .close__bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 1.2rem;
+    }
+
+    .nav__items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin: 3rem 0 1.5rem 0;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: var(--small-font-size);
+        font-weight: 700;
+        color: var(--title-color);
+    }
+
+    .nav_items_name{
+        margin-top: 8px;
+    }
+
+    .item:hover .nav_items_name{
+        color: var(--first-color);
+    }
+    .item:hover .nav__items_img{
+        color: var(--first-color);
+    }
+
+    .close{
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+        color: var(--title-color);
+    }
+}

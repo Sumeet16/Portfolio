@@ -1,0 +1,110 @@
+@import url("./Main.css");
+
+@media screen and (max-width: 767px){
+    .skills__section{
+        width: 100%;
+        min-height: 20rem;
+        position: absolute;
+        top: 80rem;
+        left: 0;
+        display: grid;
+        row-gap: 0rem;
+        text-align: center;
+    }
+    
+    .skill__main__heading{
+        font-size: var(--h1-font-size);
+    }
+
+    .skill__sub__heading{
+        margin-top: -5px;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text-color-light);
+    }
+
+    .frontend__skill__box{
+        /* height: 6rem; */
+        /* background-color: lightcoral; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        overflow: hidden;
+        margin-top: 1rem;
+    }
+
+    .frontend__skill__box:nth-child(2){
+        margin-top: 2rem;
+    }
+
+    .visible{
+        height: auto;
+    }
+
+    .disable{
+        height: 0rem;
+    }
+    
+    .upper__box{
+        width: 18.5rem;
+        height: 5rem;
+        display: flex;
+        /* background-color: red; */
+        margin-left: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        /* overflow: hidden; */
+    }
+
+    .voilet{
+        color: var(--first-color);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .up{
+        transform: rotate(180deg);
+        transition: 0.5s;
+    }
+
+    .down{
+        transform: rotate(0deg);
+        transition: 0.5s;
+    }
+
+    .fi__box{
+        margin-left: -2rem;
+    }
+
+    .fi__sub__heading{
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text-color-light);
+    }
+
+    .fi__heading{
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--text-color);
+    }
+
+    .second{
+        margin-left: -2.7rem;
+    }
+
+    .third{
+        margin-left: -6.2rem;
+    }
+
+    .lower__box{
+        width: 100%;
+    }
+
+    /* .service{
+        position: absolute;
+        bottom: -2rem;
+    } */
+}

@@ -1,0 +1,129 @@
+@import url("./Main.css");
+
+.Service__Card__Container{
+    width: 100%;
+    height: 12rem;
+    border-radius: 0.6rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    position: relative;
+    overflow: visible;
+}
+
+.inner__box{
+    width: 85%;
+    height: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   /* background-color: red; */
+   position: absolute;
+   bottom: 1.5rem;
+}
+
+.Card__Icon{
+    color: var(--first-color);
+}
+
+.Card__Label{
+    width: 70%;
+}
+
+h1{
+    font-size: 17px;
+}
+
+.Card__View__More__Btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__text{
+    font-size: 13.5px;
+    color: var(--first-color);
+    font-weight: 600;
+    margin-right: 0.7rem;
+}
+
+.arrow{
+    transition: 0.5s;
+}
+
+.Card__View__More__Btn:active .arrow{
+    margin-left: 0.5rem;
+    transition: 0.5s;
+}
+
+.main__box{
+    position: relative;
+}
+
+.main__box__outer{
+    margin-block-end: 1rem;
+}
+
+.demo__box{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main__box{
+    width: 92%;
+    height: 17rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    align-self: center;
+    padding-top: 1.5rem;
+    z-index: 100000000;
+}
+
+.first__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    /* background-color: red; */
+    padding: 0 1.7rem;
+}
+
+.box__heading{
+    font-size: var(--h2-font-size);
+    width: 40%;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+.second__row{
+    margin-top: 1.2rem;
+    display: grid;
+    row-gap: 1rem;
+    text-align: left;
+    /* background-color: red; */
+    padding-left: 1.5rem;
+}
+
+.space{
+    margin-bottom: -0.4rem;
+}
+
+.visible{
+    visibility: visible;
+    z-index: 1000000000000;
+}
+
+.disable{
+    visibility: hidden;
+}
