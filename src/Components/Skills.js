@@ -16,7 +16,7 @@ const Skills = () => {
                     <p className="skill__sub__heading">My Technical Knowledge</p>
                 </div>
 
-                <Dropdown status={true} heading={"Frountend Development"} subHeading={"More than 2 years"} class={"first"} number={0} secNumber={6} icons={"UilBracketsCurly"}/>
+                <Dropdown status={true} heading={"Frontend Development"} subHeading={"More than 2 years"} class={"first"} number={0} secNumber={6} icons={"UilBracketsCurly"}/>
                 <Dropdown status={false} heading={"Backend Development"} subHeading={"More than 1.5 years"} class={"second"} number={7} secNumber={11} icons={"UilServerNetworkAlt"}/>
                 <Dropdown status={false} heading={"Designing"} subHeading={"More than 2.5 years"} class={"third"} number={12} secNumber={14} icons={"UilIcons"}/>
 
