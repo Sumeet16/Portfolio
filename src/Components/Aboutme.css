@@ -6,7 +6,7 @@
         width: 100%;
         display: grid;
         row-gap: 3.5rem;
-        margin-block-start: 4rem;
+        margin-block-start: 6rem;
     }
 
     .about__heading{
