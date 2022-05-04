@@ -69,6 +69,10 @@ h1{
     margin-block-end: 1rem;
 }
 
+.cross{
+    cursor: pointer;
+}
+
 .demo__box{
     position: fixed;
     top: 0;

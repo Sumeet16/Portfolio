@@ -19,7 +19,7 @@
 
 .project__container{
     width: 100%;
-    margin-block-start: 8rem;
+    margin-block-start: 9rem;
     display: grid;
     row-gap: 3.5rem;
 }

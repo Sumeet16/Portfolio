@@ -3,7 +3,7 @@
     .skills__section{
         width: 100%;
         min-height: 20rem;
-        margin-block-start: 6rem;
+        margin-block-start: 10rem;
         display: grid;
         row-gap: 0rem;
         text-align: center;

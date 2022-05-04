@@ -74,15 +74,15 @@
     }
 
 
-/* @media screen and (max-width: 650px) {
-    .aboutme{
-        top: 50rem;
+@media screen and (max-width: 900px) {
+    .about__contact__btn{
+        width: 30%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .aboutme{
-        top: 45rem;
+    .about__contact__btn{
+        width: 50%;
     }
-} */
+}
 

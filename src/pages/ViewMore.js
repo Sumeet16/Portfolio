@@ -4,8 +4,16 @@ import Project_Card from '../Components/Project_Card'
 import projectData from '../Components/Project-data'
 import { UilAngleLeftB } from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react/cjs/react.production.min'
 
 const ViewMore = () => {
+    React.useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+      }, []);
     return (
         <>
             <div className="view__project__container">

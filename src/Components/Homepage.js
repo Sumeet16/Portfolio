@@ -27,24 +27,33 @@ const Homepage = () => {
                                 <h1 className="title">Hi👋, I'm Sumeet</h1>
                                 <h3 className="home__subtitle">Full Stack Developer</h3>
                                 <p className="home__disc">High level experience in web design and development knowledge, producing quality work.</p>
+
+                                <div className="contact__btn" onClick={() => {
+                                    window.scroll({
+                                        top: 5500,
+                                        behavior: 'smooth'
+                                    })
+                                }}>
+                                    <p className="text">Contact Me</p>
+                                    <UilMessage className="message__arrow" />
+                                </div>
+
+
+                                <div className="scroll__down" onClick={() => {
+                                    window.scroll({
+                                        top: 700,
+                                        behavior: 'smooth'
+                                    })
+                                }}>
+                                    <UilMouseAlt className="mouse_alt" />
+                                    <p className="scroll__down__btn">Scroll Down</p>
+                                    <UilArrowDown className="arrow_down" />
+                                </div>
                             </div>
 
                             <div className="profile__pic">
                                 <img src={profile} alt="profile_pic" />
                             </div>
-                        </div>
-
-
-                        <div className="contact__btn">
-                            <p className="text">Contact Me</p>
-                            <UilMessage className="message__arrow" />
-                        </div>
-
-
-                        <div className="scroll__down">
-                            <UilMouseAlt className="mouse_alt" />
-                            <p className="scroll__down__btn">Scroll Down</p>
-                            <UilArrowDown className="arrow_down" />
                         </div>
                     </div>
 
