@@ -1,12 +1,9 @@
 @import url("./Main.css");
 
-@media screen and (max-width: 767px){
     .skills__section{
         width: 100%;
         min-height: 20rem;
-        position: absolute;
-        top: 80rem;
-        left: 0;
+        margin-block-start: 6rem;
         display: grid;
         row-gap: 0rem;
         text-align: center;
@@ -39,7 +36,7 @@
         margin-top: 2rem;
     }
 
-    .visible{
+    .visible__skill{
         height: auto;
     }
 
@@ -83,12 +80,14 @@
         font-size: 12px;
         font-weight: 600;
         color: var(--text-color-light);
+        text-align: left;
     }
 
     .fi__heading{
         font-size: 15px;
         font-weight: 700;
         color: var(--text-color);
+        text-align: left;
     }
 
     .second{
@@ -107,4 +106,3 @@
         position: absolute;
         bottom: -2rem;
     } */
-}

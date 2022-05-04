@@ -25,7 +25,7 @@ const Service_Card = (props) => {
                     </div>
                 </div>
             </div>
-            <div className={click ? "demo__box visible" : "demo__box disable"}>
+            <div className={click ? "demo__box visible_box" : "demo__box disable"}>
                 <div className="main__box">
                     <div className="first__row">
                         <p className='box__heading'>{props.heading}</p>

@@ -31,6 +31,7 @@
 
 .Card__Label{
     width: 70%;
+    text-align: left;
 }
 
 h1{
@@ -41,6 +42,7 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .btn__text{
@@ -70,10 +72,10 @@ h1{
 .demo__box{
     position: fixed;
     top: 0;
-    bottom: 0;
-    right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +83,7 @@ h1{
 }
 
 .main__box{
-    width: 92%;
+    width: 50%;
     height: 17rem;
     background-color: #fff;
     border-radius: 1rem;
@@ -119,7 +121,7 @@ h1{
     margin-bottom: -0.4rem;
 }
 
-.visible{
+.visible_box{
     visibility: visible;
     z-index: 1000000000000;
 }

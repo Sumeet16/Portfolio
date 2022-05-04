@@ -72,12 +72,22 @@ const Navbar = () => {
                         <p className="nav_items_name">Service</p>
                     </div>
 
-                    <div className="item">
+                    <div className="item" onClick={() => {
+                        window.scroll({
+                            top: 2700,
+                            behavior: 'smooth'
+                          })
+                    }}>
                         <UilScenery className="nav__items_img" onClick={() => { settoogle(false) }}/>
                         <p className="nav_items_name">Projects</p>
                     </div>
 
-                    <div className="item">
+                    <div className="item" onClick={() => {
+                        window.scroll({
+                            top: 4400,
+                            behavior: 'smooth'
+                          })
+                    }}>
                         <UilMessage onClick={() => { settoogle(false) }} className="nav__items_img"/>
                         <p className="nav_items_name">Contactme</p>
                     </div>

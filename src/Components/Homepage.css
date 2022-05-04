@@ -1,33 +1,31 @@
 @import url("./Main.css");
 
-@media screen and (max-width: 767px) {
     .homepage__cont{
-        width: 100%;
-        position: absolute;
-        top: 0rem;
         display: grid;
         grid-gap: 1rem;
-    
     }
     
     .home__first__cont{
-        grid-template-columns: 3fr;
-        padding-top: 3.5rem;
-        align-items: center;
+        width: 100%;
+        /* background-color: red; */
     }
     
     .dummy_box{
-        width: 100vw;
+        width: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 2rem;
+        /* background-color: blue; */
+        margin: 0 auto;
+        /* margin-block-end: 2rem; */
     }
     
     .social__box{
         display: grid;
         grid-template-columns: max-content;
         row-gap: 2rem;
+        /* margin-inline-end: 10rem; */
     }
     
     .home__social__logo{
@@ -35,7 +33,7 @@
     }
     
     .profile__pic{
-        width: 75%;
+        width: 50%;
     }
     
     .profile__pic img{
@@ -43,9 +41,12 @@
     }
     
     .home__data{
-        padding: 1rem 2rem;
-        display: grid;
-        row-gap: .2rem;
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        padding-left: 5rem;
     }
     
     .title{
@@ -58,6 +59,7 @@
     }
     
     .home__disc{
+        width: 80%;
         color: var(--text-color-light);
         font-size: 15px;
         margin-top: 0.5rem;
@@ -71,7 +73,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-left: 2rem;
+        margin-left: 10rem;
         margin-top: 0.8rem;
         cursor: pointer;
         margin-bottom: 1rem;
@@ -102,7 +104,7 @@
         justify-content: space-between;
         align-items: center;
         transition: 0.5s;
-        margin-left: 2rem;
+        margin-left: 10rem;
     }
     
     .scroll__down__btn{
@@ -113,4 +115,29 @@
         margin-top: 15px;
         transition: 0.5s;
     }
-}
+
+    @media screen and (max-width: 820px) {
+       .dummy_box{
+           width: 100vw;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 2fr;
+           text-align: center;
+           /* background-color: red; */
+       }
+
+       .home__data{
+           /* width: 50vw; */
+           grid-row-start: 2;
+       }
+       
+       .social__box{
+           grid-column: 1;
+       }
+
+       .profile__pic{
+           width: 75%;
+           grid-column: 3;
+           margin-inline-start: 4rem;
+       }
+    }

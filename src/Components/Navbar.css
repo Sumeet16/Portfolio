@@ -1,13 +1,15 @@
 @import url("./Main.css");
 
-@media screen and (max-width: 767px) {
+
+
+
     .nav__cont{
         width: 100%;
         padding: 1rem 1.5rem;
         position: fixed;
         bottom: 0;
         left: 0;
-        z-index: 1000;
+        z-index: 1000000;
         background-color: var(--body-color);
     }
 
@@ -104,4 +106,3 @@
         cursor: pointer;
         color: var(--title-color);
     }
-}

@@ -19,7 +19,7 @@ const Dropdown = (props) => {
                     </div>
                     <UilAngleUp className={toggle ? "voilet down" : "voilet up"} />
                 </div>
-                <div className={toggle ? "lower__box visible" : "lower__box disable"}>
+                <div className={toggle ? "lower__box visible__skill" : "lower__box disable"}>
                     <Dropdown_items number={props.number} secNumber={props.secNumber}/>
                 </div>
             </div>

@@ -1,27 +1,15 @@
 import React from 'react'
-import Aboutme from './Components/Aboutme';
-import Navbar from './Components/Navbar';
-import Homepage from './Components/Homepage';
-import Skills from './Components/Skills';
-import Service from './Components/Service';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
+import { Routes, Route, Link } from "react-router-dom";
 import "./App.css"
+import MainScreen from './MainScreen';
+import ViewMore from './pages/ViewMore';
 
 function App() {
   return (
-    <>
-    <div className="main__container">
-      <Navbar/>
-      <Homepage/>
-      <Aboutme/>
-      <Skills/>
-      <Projects/>
-      {/* <Contact/>
-      <Footer/> */}
-    </div>
-    </>
+    <Routes>
+        <Route path="/" element={<MainScreen />} />
+        <Route path="/view" element={<ViewMore />} />
+      </Routes>
   );
 }
 

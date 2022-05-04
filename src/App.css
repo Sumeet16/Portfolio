@@ -9,7 +9,11 @@
 
 .main__container{
     width: 100%;
-    height: 500vh;
+    height: auto;
     position: relative;
 }
 
+section{
+    margin: 0 auto;
+    /* background-color: red; */
+}

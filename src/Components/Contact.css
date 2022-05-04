@@ -1,0 +1,86 @@
+.contact__sub__heading{
+    margin-top: -5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-color-light);
+}
+
+.contact__heading__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__main__heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact__container{
+    width: 100%;
+    margin-block-start: 6rem;
+    display: grid;
+    row-gap: 3.5rem;
+}
+
+form{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.textbox{
+    width: 80%;
+    height: 4rem;
+    padding-left: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--input-color);
+    border-radius: 10px;
+}
+
+.textbox:nth-child(3){
+    height: 8rem;
+    padding-top: 1rem;
+}
+
+button{
+    width: 25%;
+    height: 4rem;
+    background-color: var(--first-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-inline-start: 0rem;
+    margin-bottom: 8rem;
+}
+
+button p{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1100px){
+    button{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .contact__container{
+        width: 90%;
+        margin: 8rem auto;
+    }
+}

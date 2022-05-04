@@ -1,6 +1,6 @@
 .service__page{
     width: 100%;
-    margin-top: 5.5rem;
+    margin-top: 7rem;
     display: grid;
     row-gap: 0rem;
     text-align: center;
@@ -25,4 +25,11 @@
     grid-template-columns: auto auto;
     grid-gap: 1rem;
     margin-left: 0.85rem;
+}
+@media screen and (min-width: 550px){
+    .service__list__box__container{
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
 }

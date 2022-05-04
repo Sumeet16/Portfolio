@@ -1,25 +1,39 @@
 import React from 'react'
 import "./Project.css";
+import projectData from './Project-data';
+import Project_Card from "./Project_Card";
+import { Link } from 'react-router-dom'
+import Contact from './Contact';
+
 
 const Projects = () => {
     return (
-        <div className="project__container">
-            <div className="project__heading__section">
-                <h1 className="project__main__heading">Projects</h1>
-                <p className="project__sub__heading">What i offer</p>
-            </div>
+        <>
+            <section>
+                <div className="project__container">
+                    <div className="project__heading__section">
+                        <h1 className="project__main__heading">Projects</h1>
+                        <p className="project__sub__heading">What i recently made</p>
+                    </div>
 
-            <div className="project__card">
-                <div className="img__container"></div>
-                <h1 className="project__heading">Demo</h1>
-                <p className="project__disc">Lorem ipsum dolor sit amet consectetur, adipisicing el
-                sitatibus iusto aliquid exercitationem tempore.</p>
-                <div className="btn__cont">
-                    <a href="" className="project__btn">View Repo</a>
-                    <a href="" className="project__btn">Test It</a>
+                    {
+                        projectData.map((elem, index) => {
+                            return (
+                                index < 3 && <Project_Card heading={elem.heading} desc={elem.desc} image={elem.image} git={elem.git} website={elem.website} />
+                            )
+                        })
+                    }
+
+                    <Link to="/view">
+                        <p className="view_more_btn project__btn">View More</p>
+                    </Link>
+
+                    <div className="contactme">
+                        <Contact/>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </>
     )
 }
 
