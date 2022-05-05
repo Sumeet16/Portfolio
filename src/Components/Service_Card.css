@@ -88,11 +88,11 @@ h1{
 
 .main__box{
     width: 50%;
-    height: 17rem;
+    height: auto;
     background-color: #fff;
     border-radius: 1rem;
     align-self: center;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0;
     z-index: 100000000;
 }
 

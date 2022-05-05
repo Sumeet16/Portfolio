@@ -4,7 +4,7 @@ const content = [
         content: [
             "I can develop the user interface.",
             "Web Design with Wireframe.",
-            "I can create interactive Ux element.",
+            "I can create interactive UX element.",
             "Figma, AdobeXD, Photoshop."
         ],
         icon: "UilIcons"
@@ -12,27 +12,24 @@ const content = [
     {
         heading: "Frontend Devlopment",
         content: [
-            "I can develop face.",
-            "Web Designeframe.",
-            "I can creatve Ux element.",
-            "Figma, AdobeXD, Photoshop."
+            "I can build fully responsive web app which fits your needs.",
+            "I am proficient with HTML/CSS and ReactJS.",
+            "I have a keen observation and can develop pixel perfect websites."
         ],
         icon: "UilArrow"
     },
     {
         heading: "Backend Devlopment",
         content: [
-            "I can develop the user interface.",
-            "Webireframe.",
-            "I can create ine Ux element.",
-            "Figm, Photoshop."
+            "I can build custom and robust backends for your business.",
+            "I am well verse with ExpressJs, NodeJS, MongoDB and Firebase."
         ],
         icon: "UilCodeBranch"
     },
     {
         heading: "Blockchain Devlopment",
         content: [
-            "Custom ethereum contarct for your business.",
+            "Custom Ethereum contarct for your business.",
             "Full integration of smart contract with frontend.",
             "Database intergity with Sanity.io."
         ],

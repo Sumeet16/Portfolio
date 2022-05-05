@@ -1,10 +1,9 @@
 import React from 'react'
 import "./ViewMore.css"
-import Project_Card from '../Components/Project_Card'
+import ProjectCard from '../Components/Project_Card'
 import projectData from '../Components/Project-data'
 import { UilAngleLeftB } from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react/cjs/react.production.min'
 
 const ViewMore = () => {
     React.useEffect(() => {
@@ -23,13 +22,13 @@ const ViewMore = () => {
                 </Link>
                 <div className='viewmore__heading'>
                     <h1 className="project__main__heading">Projects</h1>
-                    <p className="project__sub__heading">What i offer</p>
+                    <p className="project__sub__heading">What I offer</p>
                 </div>
                 </div>
                 {
                     projectData.map((elem, index) => {
                         return (
-                            <Project_Card heading={elem.heading} desc={elem.desc} image={elem.image} git={elem.git} website={elem.website} />
+                            <ProjectCard heading={elem.heading} desc={elem.desc} image={elem.image} git={elem.git} website={elem.website} />
                         )
                     })
                 }

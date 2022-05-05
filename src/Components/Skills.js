@@ -1,8 +1,4 @@
 import React from 'react'
-import { UilBracketsCurly } from '@iconscout/react-unicons'
-import { UilServerNetworkAlt } from '@iconscout/react-unicons'
-import { UilIcons } from '@iconscout/react-unicons'
-import { UilAngleUp } from '@iconscout/react-unicons'
 import "./Skills.css"
 import Service from './Service'
 import Dropdown from './Dropdown'

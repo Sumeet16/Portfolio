@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react'
 import "./Navbar.css"
 import "./Main.css"
-import { Uil0Plus } from '@iconscout/react-unicons'
 import { UilEstate } from '@iconscout/react-unicons'
 import { UilUser } from '@iconscout/react-unicons'
 import { UilFileAlt } from '@iconscout/react-unicons'
@@ -11,11 +10,8 @@ import { UilMessage } from '@iconscout/react-unicons'
 import { UilTimes } from '@iconscout/react-unicons'
 import { UilApps } from '@iconscout/react-unicons'
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
-
 const Navbar = () => {
     const myRef = useRef(null)
-   const executeScroll = () => scrollToRef(myRef)
     const [toogle, settoogle] = useState(false);
     return (
         <>

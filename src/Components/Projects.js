@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Project.css";
 import projectData from './Project-data';
-import Project_Card from "./Project_Card";
+import ProjectCard from "./Project_Card";
 import { Link } from 'react-router-dom'
 import Contact from './Contact';
 
@@ -13,13 +13,13 @@ const Projects = () => {
                 <div className="project__container">
                     <div className="project__heading__section">
                         <h1 className="project__main__heading">Projects</h1>
-                        <p className="project__sub__heading">What i recently made</p>
+                        <p className="project__sub__heading">What I recently made</p>
                     </div>
 
                     {
                         projectData.map((elem, index) => {
                             return (
-                                index < 3 && <Project_Card heading={elem.heading} desc={elem.desc} image={elem.image} git={elem.git} website={elem.website} />
+                                index < 3 && <ProjectCard heading={elem.heading} desc={elem.desc} image={elem.image} git={elem.git} website={elem.website} />
                             )
                         })
                     }

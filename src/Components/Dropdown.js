@@ -3,7 +3,7 @@ import { UilAngleUp } from '@iconscout/react-unicons'
 import { UilBracketsCurly } from '@iconscout/react-unicons'
 import { UilServerNetworkAlt } from '@iconscout/react-unicons'
 import { UilIcons } from '@iconscout/react-unicons'
-import Dropdown_items from './Dropdown_items'
+import Dropdownitems from './Dropdown_items'
 
 
 const Dropdown = (props) => {
@@ -20,7 +20,7 @@ const Dropdown = (props) => {
                     <UilAngleUp className={toggle ? "voilet down" : "voilet up"} />
                 </div>
                 <div className={toggle ? "lower__box visible__skill" : "lower__box disable"}>
-                    <Dropdown_items number={props.number} secNumber={props.secNumber}/>
+                    <Dropdownitems number={props.number} secNumber={props.secNumber}/>
                 </div>
             </div>
             

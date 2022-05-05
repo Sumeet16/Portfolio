@@ -33,7 +33,7 @@ const Aboutme = () => {
                     </div>
                 </div>
 
-                <a href="https://drive.google.com/file/d/1LIrTKnSG8nfbDK8EtUkc9cCQGO3BLMs4/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1LIrTKnSG8nfbDK8EtUkc9cCQGO3BLMs4/view?usp=sharing" rel="noreferrer" target="_blank">
                     <div className="about__contact__btn">
                         <p className="contact__btn__txt">Download CV</p>
                         <UilDownloadAlt />
