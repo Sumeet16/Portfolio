@@ -4,6 +4,8 @@ import shadows from '../Assets/shadow.png'
 import chatty from '../Assets/chatty.png'
 import devto from '../Assets/devto.png'
 import firechat from '../Assets/firechat.png'
+import googleKeep from "../Assets/google-keep.png"
+import textIt from "../Assets/text-it.png"
 
 
 const projectData = [
@@ -26,8 +28,8 @@ const projectData = [
         heading: "Dev.to Clone",
         desc: "A clone of Dev.to made in React to get a better understanding of hooks and APIs",
         image: devto,
-        git: "#",
-        website: "#"
+        git: "https://github.com/Sumeet16/DevTo-Clone",
+        website: "https://devto-clone-app.netlify.app/"
     },
     {
         heading: "Shadow Maker",
@@ -47,8 +49,22 @@ const projectData = [
         heading: "FireChat",
         desc: "It is a simple chat web application powered by Firebase.",
         image: firechat,
-        git: "#",
+        git: "https://github.com/Sumeet16/FireChat",
         website: "https://unichat-d4d6e.web.app/"
+    }, 
+    {
+        heading: "Google Keep",
+        desc: "It's a Google Keep Clone made in ReactJS.",
+        image: googleKeep,
+        git: "https://github.com/Sumeet16/Google-Keep",
+        website: "https://google-keep-clone-app.netlify.app/"
+    }, 
+    {
+        heading: "Voice To Text",
+        desc: "It is a voice to text converter made using ReactJS.",
+        image: textIt,
+        git: "https://github.com/Sumeet16/voice-to-text",
+        website: "https://text-it-app.netlify.app/"
     },   
 ]
 
