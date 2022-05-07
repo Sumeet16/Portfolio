@@ -24,7 +24,7 @@ const Aboutme = () => {
                         <p className="exp__disc">Years<br />experience</p>
                     </div>
                     <div className="exp__box">
-                        <h1 className="exp__heading">23+</h1>
+                        <h1 className="exp__heading">20+</h1>
                         <p className="exp__disc">Completed<br />projects</p>
                     </div>
                     <div className="exp__box">
