@@ -10,13 +10,6 @@ import textIt from "../Assets/text-it.png"
 
 const projectData = [
     {
-        heading: "Chatty",
-        desc: "An interactive chat app made in MERN stack.",
-        image: chatty,
-        git: "https://github.com/Sumeet16/Chatty",
-        website: "https://app-chatty.netlify.app/"
-    },
-    {
         
         heading: "Static Tube",
         desc: "A platform which let's you uplaod videos and save them for later use. It is powered by Firebase.",
@@ -44,6 +37,13 @@ const projectData = [
         image: krypt,
         git: "https://github.com/Sumeet16/kryptx",
         website: "https://app-krypt.netlify.app/"
+    },
+    {
+        heading: "Chatty",
+        desc: "An interactive chat app made in MERN stack.",
+        image: chatty,
+        git: "https://github.com/Sumeet16/Chatty",
+        website: "https://app-chatty.netlify.app/"
     },
     {
         heading: "FireChat",
